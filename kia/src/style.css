@@ -1,0 +1,13 @@
+@import './css-reset.css';
+@import './fonts.css';
+:root {
+    --white: #fff;
+    --almostWhite: #fefefe;
+    --lightCart: #d0d0d0;
+    --theCart: #939393;
+    --black: #000;
+    --signalBlack: #333333;
+    --bordeaux: #a30606;
+    --brightTangerine: #ff9393;
+    --pinkish: #cd7f7f;
+}  
