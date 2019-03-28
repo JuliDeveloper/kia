@@ -1,0 +1,65 @@
+.header {
+    max-width: 1180px;
+    min-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    position: relative;
+}
+
+.header::before {
+    content: '';
+    background: var(--bordeaux);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -58%;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    padding: 30px 10px 30px 0;
+    background: var(--bordeaux);
+}
+
+.header__container_autoholding {
+    width: 175px;
+    height: 60px;
+    background: url(../../images/logo_avtoholding.png) no-repeat;
+    margin: 0 93px 0 0;
+}
+
+.header__container_address {
+    max-width: 193px;
+    display: flex;
+}
+
+.header__container_address-text {
+    font: 14px/14px 'KIAM';
+    color: var(--white);
+}
+
+.header__container_address-icon {
+    width: 25px;
+    height: 27px;
+    background: url(../../images/address.png) no-repeat;
+    margin: 0 10px 0 0;
+}
+
+.header__button {
+    background: var(--bordeaux);
+    font: 16px/16px 'KIAM';
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 20px 32px 22px 38px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: block;
+    margin: 30px 0 30px 76px;
+}  
+  
