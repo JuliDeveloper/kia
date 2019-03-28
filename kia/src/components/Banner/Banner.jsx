@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.css';
 import Menu from '../Menu/Menu.jsx';
-import CreditForm from '../CreditForm/CreditForm.jsx';
+import AdvertForm from '../AdvertForm/AdvertForm.jsx';
 
 const Banner = () => {
     return <section className='banner'>
@@ -10,7 +10,7 @@ const Banner = () => {
         <div className='banner__image'></div>
         <div>
             <Menu />
-            <CreditForm />
+            <AdvertForm />
         </div>
     </section>
 }

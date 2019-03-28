@@ -1,0 +1,32 @@
+.menu {
+    margin: 98px 0 0;
+}
+
+.menu__title {
+    font: 24px/24px 'KIAB';
+    color: var(--white);
+}
+
+.menu__title-upper {
+    text-transform: uppercase;
+}
+
+.menu__list {
+    max-width: 445px;
+    margin: 60px 0 0;
+    column-count: 3;
+}
+
+.menu__list_item + .menu__list_item {
+    margin: 15px 0 0;
+}
+
+.menu__list_item-link {
+    font: 16px/16px 'KIAM';
+    color: var(--white);
+    text-decoration: none;
+}
+
+.menu__list_item-link:hover {
+    color: var(--pinkish);
+}  

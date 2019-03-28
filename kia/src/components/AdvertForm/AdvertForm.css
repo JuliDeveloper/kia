@@ -1,0 +1,41 @@
+.form {
+
+}
+
+.form__title {
+    font: 48px/48px 'KIAB';
+    color: var(--black);
+    margin: 0 0 10px;
+}
+
+.form__subtitle {
+    font: 19px/19px 'KIAB';
+}
+
+.form__subtitle-upper {
+    text-transform: uppercase;
+}
+
+.form__input {
+    width: 297px;
+    border: 1px solid var(--theCart);
+    font: 16px/16px 'KIAM';
+    color: var(--theCart);
+    padding: 18px 0 17px 19px;
+}  
+
+
+.Введите_телефон {
+    font-size: 16px;
+    font-family: "KIAM";
+    color: rgb(147, 147, 147);
+    line-height: 1.875;
+    text-align: left;
+    position: absolute;
+    left: 938.109px;
+    top: 766.465px;
+    width: 136px;
+    height: 15px;
+    z-index: 53;
+  }
+  
