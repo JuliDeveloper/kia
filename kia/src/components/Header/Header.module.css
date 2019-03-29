@@ -1,0 +1,54 @@
+.header {
+  max-width: 1180px;
+  margin: 30px auto 0;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.autoHolding {
+  width: 175px;
+  height: 60px;
+  background: url(../../images/logo_avtoholding.png) no-repeat;
+  margin: 0 93px 0 0;
+}
+
+.address {
+  max-width: 193px;
+  display: flex;
+}
+
+.addressText {
+  font-family: KIAM, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--white);
+}
+
+.addressIcon {
+  width: 26px;
+  height: 27px;
+  background: url(../../images/address.png) no-repeat;
+  margin: 0 10px 0 0;
+}
+
+.button {
+  background: var(--bordeaux);
+  font-family: KIAM, sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 20px 32px 22px 38px;
+  margin: 0 0 0 76px;
+  transition: background 0.1s ease-in-out;
+}
+
+.button:hover {
+  background: rgba(163, 6, 6, 0.9);
+}
