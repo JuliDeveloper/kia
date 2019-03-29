@@ -1,17 +1,18 @@
 import React from 'react';
-import './Header.css';
+import css from './Header.module.css';
 import Logo from '../Logo/Logo.jsx';
+import Button from '../Button/Button.jsx';
 
 const Header = () => {
-    return <header className='header'>
-        <section className='header__container'>
-            <div className='header__container_autoholding'></div>
-            <div className='header__container_address'>
-                <span className='header__container_address-icon'></span>
-                <address className='header__container_address-text'>Краснодар, Тургеневское шоссе, 25</address>
+    return <header className={css.header}>
+        <section className={css.container}>
+            <div className={css.autoholding}></div>
+            <div className={css.address}>
+                <span className={css.addressIcon}></span>
+                <address className={css.addressText}>Краснодар, Тургеневское шоссе, 25</address>
             </div>
-        </section>
-        <button className='header__button'>заказать звонок</button>
+        </section>        
+        <Button title='заказать звонок' buttonClassName={css.button} />
         <Logo />
     </header>
 }

@@ -1,51 +1,50 @@
 .header {
     max-width: 1180px;
-    min-width: 1000px;
-    margin: 0 auto;
-    padding: 30px 10px;
+    margin: 30px auto 0;
+    padding: 0 10px;
     display: flex;
     align-items: center;
 }
 
-.header__container {
+.container {
     display: flex;
     align-items: center;
 }
 
-.header__container_autoholding {
+.autoholding {
     width: 175px;
     height: 60px;
     background: url(../../images/logo_avtoholding.png) no-repeat;
     margin: 0 93px 0 0;
 }
 
-.header__container_address {
+.address {
     max-width: 193px;
     display: flex;
 }
 
-.header__container_address-text {
+.addressText {
     font: 14px/14px 'KIAM';
     color: var(--white);
 }
 
-.header__container_address-icon {
-    width: 25px;
+.addressIcon {
+    width: 26px;
     height: 27px;
     background: url(../../images/address.png) no-repeat;
     margin: 0 10px 0 0;
 }
 
-.header__button {
+.button {
     background: var(--bordeaux);
     font: 16px/16px 'KIAM';
     color: var(--white);
     text-transform: uppercase;
     padding: 20px 32px 22px 38px;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    display: block;
     margin: 0 0 0 76px;
-}  
-  
+    transition: background .1s ease-in-out;
+}
+
+.button:hover {
+    background: rgba(163, 6, 6, .9);
+}
