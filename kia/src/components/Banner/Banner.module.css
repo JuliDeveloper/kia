@@ -1,0 +1,63 @@
+.banner {
+  max-width: 1180px;
+  min-width: 950px;
+  padding: 0 10px;
+  margin: 30px auto 0;
+  position: relative;
+}
+
+.container {
+  display: flex;
+}
+
+.titleBox:first-child {
+  margin: 40px 0 0;
+}
+
+.title {
+  font-family: KIAB, sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+  color: var(--white);
+  white-space: nowrap;
+  display: block;
+}
+
+.titleIncrease {
+  font-family: KIAB, sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  color: var(--white);
+  text-transform: uppercase;
+  white-space: nowrap;
+  display: block;
+}
+
+.button {
+  background: var(--white);
+  font-family: KIAB, sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+  color: var(--bordeaux);
+  text-transform: uppercase;
+  padding: 0 63px;
+  cursor: pointer;
+  margin: 19px 0 0;
+  display: block;
+}
+
+.image {
+  background: url(../../images/cars.jpg) no-repeat;
+  width: 1038px;
+  height: 422px;
+  position: absolute;
+  top: 0;
+  right: -20%;
+  z-index: -1;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin: 99px 0 0;
+}

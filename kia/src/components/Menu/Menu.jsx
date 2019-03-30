@@ -1,51 +1,57 @@
-import React from 'react';
-import './Menu.css';
+import React from "react";
+import css from "./Menu.module.css";
 
-const Menu = () => {
-    return <nav className='menu'>
-        <h2 className='menu__title'>Подберите свой <span className='menu__title-upper'>kia</span></h2>
-        <ul className='menu__list'>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Picanto</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Rio</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Rio X-Line</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Ceed <span className='item__text-upper'>sw</span></a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Cerato <span className='item__text-upper'>new</span></a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Optima <span className='item__text-upper'>new</span></a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Stinger</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Quoris</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Soul</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Sportage</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Sorento</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Sorento Prime</a>
-            </li>
-            <li className='menu__list_item'>
-                <a className='menu__list_item-link' href='#'>Mohave</a>
-            </li>
-        </ul>
-    </nav>
-}
+const Menu = () => (
+  <nav className={css.menu}>
+    <h2 className={css.title}>
+      Подберите свой&nbsp;
+      <span className={css.titleUpper}>kia</span>
+    </h2>
+    <div>
+      <a className={css.link} href="/">
+        Picanto
+      </a>
+      <a className={css.link} href="/">
+        Rio
+      </a>
+      <a className={css.link} href="/">
+        Rio X-Line
+      </a>
+      <a className={css.link} href="/">
+        Ceed&nbsp;
+        <span className={css.textUpper}>sw</span>
+      </a>
+      <a className={css.link} href="/">
+        Cerato&nbsp;
+        <span className={css.textUpper}>new</span>
+      </a>
+      <a className={css.link} href="/">
+        Optima&nbsp;
+        <span className={css.textUpper}>new</span>
+      </a>
+      <a className={css.link} href="/">
+        Stinger
+      </a>
+      <a className={css.link} href="/">
+        Quoris
+      </a>
+      <a className={css.link} href="/">
+        Soul
+      </a>
+      <a className={css.link} href="/">
+        Sportage
+      </a>
+      <a className={css.link} href="/">
+        Sorento
+      </a>
+      <a className={css.link} href="/">
+        Sorento Prime
+      </a>
+      <a className={css.link} href="/">
+        Mohave
+      </a>
+    </div>
+  </nav>
+);
 
 export default Menu;

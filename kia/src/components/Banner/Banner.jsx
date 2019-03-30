@@ -1,18 +1,26 @@
-import React from 'react';
-import './Banner.css';
-import Menu from '../Menu/Menu.jsx';
-import AdvertForm from '../AdvertForm/AdvertForm.jsx';
+import React from "react";
+import css from "./Banner.module.css";
+import Menu from "../Menu/Menu";
+import AdvertForm from "../AdvertForm/AdvertForm";
+import Button from "../Button";
 
-const Banner = () => {
-    return <section className='banner'>
-        <h2 className='banner__title'>Только до конца октября <span className='banner__title_increase'>масштабные выгоды</span> на весь модельный ряд!</h2>
-        <button className='banner__button'>забрать выгоду!</button>
-        <div className='banner__image'></div>
-        <div>
-            <Menu />
-            <AdvertForm />
-        </div>
-    </section>
-}
+const Banner = () => (
+  <section className={css.banner}>
+    <div className={css.container}>
+      <div className={css.titleBox}>
+        <span className={css.title}>Только до конца октября</span>
+        <span className={css.titleIncrease}>масштабные выгоды</span>
+        <span className={css.title}>на весь модельный ряд!</span>
+        <Button title="забрать выгоду!" buttonClassName={css.button} />
+      </div>
+
+      <div className={css.image} />
+    </div>
+    <div className={css.box}>
+      <Menu />
+      <AdvertForm />
+    </div>
+  </section>
+);
 
 export default Banner;

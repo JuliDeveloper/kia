@@ -1,13 +1,21 @@
-import React from 'react';
-import './AdvertForm.css';
+import React from "react";
+import css from "./AdvertForm.module.css";
+import Button from "../Button";
 
-const AdvertForm = () => {
-    return <form className='advert'>
-        <h2 className='advert__title'>Супер кредит 0,1%</h2>
-        <h3 className='advert__subtitle'>на <span className='fadvert__subtitle-upper'>kia sportage, stringer, sorento prime</span></h3>
-        <input className='advert__input' type="tel" placeholder='Введите телефон' id='phone'/>
-        <button className='advert__button' htmlFor="phone">получить кредит</label>
-    </form>
-}
+const AdvertForm = () => (
+  <form className={css.advert}>
+    <h2 className={css.title}>Супер кредит 0,1%</h2>
+    <h3 className={css.subtitle}>
+      на&nbsp;
+      <span className={css.subtitleUpper}>
+        kia sportage, stringer, sorento, sorento prime
+      </span>
+    </h3>
+    <div className={css.container}>
+      <input className={css.input} type="tel" placeholder="Введите телефон" />
+      <Button title="получить кредит" buttonClassName={css.button} />
+    </div>
+  </form>
+);
 
-export default CreditForm;
+export default AdvertForm;

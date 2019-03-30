@@ -1,0 +1,49 @@
+.advert {
+  margin: 52px 0 0;
+}
+
+.title {
+  font-family: KIAB, sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  color: var(--black);
+}
+
+.subtitle {
+  font-family: KIAB, sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.subtitleUpper {
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 36px 0 0;
+}
+
+.input {
+  width: 297px;
+  border: 1px solid var(--theCart);
+  font-family: KIAM, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--theCart);
+  padding: 19px 0 15px 19px;
+  margin: 0 37px 0 0;
+  box-sizing: border-box;
+}
+
+.button {
+  font-family: KIAM, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--white);
+  text-transform: uppercase;
+  background: var(--bordeaux);
+  padding: 19px 73px 15px 69px;
+  white-space: nowrap;
+}

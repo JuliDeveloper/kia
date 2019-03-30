@@ -1,9 +1,9 @@
 .rectangle {
-    width: 878px;
-    height: 768px;
-    background: var(--bordeaux);
-    position: absolute;
-    z-index: -2;
-    top: 0;
-    left: 0;
+  width: 879px;
+  height: 771px;
+  background: var(--bordeaux);
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
 }

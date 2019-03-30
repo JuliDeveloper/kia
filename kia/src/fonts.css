@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'KIAM';
     src: url('../src/fonts/KIAM.ttf'),
-         url('../src/fonts/KIAM.eot'),
-         url('../src/fonts/KIAM.woff');
+    url('../src/fonts/KIAM.eot'),
+    url('../src/fonts/KIAM.woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
     font-family: 'KIAB';
     src: url('../src/fonts/KIAB.ttf'),
-         url('../src/fonts/KIAB.eot'),
-         url('../src/fonts/KIAB.woff');
+    url('../src/fonts/KIAB.eot'),
+    url('../src/fonts/KIAB.woff');
     font-weight: bold;
     font-style: normal;
 }
