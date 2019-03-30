@@ -1,0 +1,117 @@
+.advert {
+  display: flex;
+  position: relative;
+}
+
+.container {
+  max-width: 575px;
+}
+
+.container + .container {
+  margin: 0 0 0 39px;
+}
+
+.advert::before {
+  content: "";
+  display: block;
+  width: 219px;
+  height: 243px;
+  background: url("../../images/rectangle_grey.svg") no-repeat;
+  position: absolute;
+  background-size: contain;
+  z-index: -1;
+  top: 18px;
+  left: 46%;
+  transform: translateX(-50%);
+}
+
+.title {
+  font-family: KIAB, sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+  color: var(--black);
+}
+
+.attract {
+  color: var(--bordeaux);
+}
+
+.stock {
+  display: flex;
+}
+
+.square {
+  width: 43px;
+  height: 43px;
+  background: var(--bordeaux);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 0 0;
+}
+
+.stockText {
+  max-width: 100px;
+  font-family: KIAM, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--black);
+}
+
+.text {
+  font-family: KIAB, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--bordeaux);
+  display: block;
+  margin: 8px 0 0;
+}
+
+.button {
+  width: 220px;
+  font-family: KIAM, sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  display: block;
+  padding: 5px 0;
+  margin: 8px 0 0;
+}
+
+.credit {
+  background: var(--white);
+  border: 1px solid var(--bordeaux);
+  color: var(--bordeaux);
+  transition: transform 0.5s ease-in-out, background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.credit:hover {
+  background: var(--bordeaux);
+  color: var(--white);
+  transform: scale(1.1);
+}
+
+.benefit {
+  background: var(--bordeaux);
+  border: 1px solid var(--bordeaux);
+  color: var(--white);
+  text-transform: uppercase;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.benefit:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
+.special {
+  background: var(--signalBlack);
+  border: 1px solid var(--signalBlack);
+  color: var(--white);
+  text-transform: uppercase;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.special:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
