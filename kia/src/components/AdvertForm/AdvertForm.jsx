@@ -1,5 +1,6 @@
 import React from "react";
 import css from "./AdvertForm.module.css";
+import Input from "../Input/Input";
 import Button from "../Button";
 
 const AdvertForm = () => (
@@ -12,7 +13,7 @@ const AdvertForm = () => (
       </span>
     </h3>
     <div className={css.container}>
-      <input className={css.input} type="tel" placeholder="Введите телефон" />
+      <Input inputClassName={css.input} />
       <Button title="получить кредит" buttonClassName={css.button} />
     </div>
   </form>
