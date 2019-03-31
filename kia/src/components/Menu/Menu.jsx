@@ -1,5 +1,8 @@
 import React from "react";
+
+import menuConfigData from "./configData";
 import css from "./Menu.module.css";
+import MenuItem from "./MenuItem";
 
 const Menu = () => (
   <nav className={css.menu}>
@@ -7,49 +10,10 @@ const Menu = () => (
       Подберите свой&nbsp;
       <span className={css.titleUpper}>kia</span>
     </h2>
-    <div>
-      <a className={css.link} href="/">
-        Picanto
-      </a>
-      <a className={css.link} href="/">
-        Rio
-      </a>
-      <a className={css.link} href="/">
-        Rio X-Line
-      </a>
-      <a className={css.link} href="/">
-        Ceed&nbsp;
-        <span className={css.textUpper}>sw</span>
-      </a>
-      <a className={css.link} href="/">
-        Cerato&nbsp;
-        <span className={css.textUpper}>new</span>
-      </a>
-      <a className={css.link} href="/">
-        Optima&nbsp;
-        <span className={css.textUpper}>new</span>
-      </a>
-      <a className={css.link} href="/">
-        Stinger
-      </a>
-      <a className={css.link} href="/">
-        Quoris
-      </a>
-      <a className={css.link} href="/">
-        Soul
-      </a>
-      <a className={css.link} href="/">
-        Sportage
-      </a>
-      <a className={css.link} href="/">
-        Sorento
-      </a>
-      <a className={css.link} href="/">
-        Sorento Prime
-      </a>
-      <a className={css.link} href="/">
-        Mohave
-      </a>
+    <div className={css.list}>
+      {menuConfigData.map(menuItem => (
+        <MenuItem {...menuItem} />
+      ))}
     </div>
   </nav>
 );

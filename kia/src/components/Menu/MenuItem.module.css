@@ -1,0 +1,16 @@
+.link {
+  font-family: KIAM, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+
+.link:hover {
+  color: var(--pinkish);
+}
+
+.text {
+  text-transform: uppercase;
+}
