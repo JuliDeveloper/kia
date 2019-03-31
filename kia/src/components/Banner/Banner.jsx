@@ -3,6 +3,8 @@ import css from "./Banner.module.css";
 import Menu from "../Menu/Menu";
 import AdvertForm from "../AdvertForm/AdvertForm";
 import Button from "../Button";
+import ModalWindow from "../ModalWindow";
+import BenefitModal from "../BenefitModal/BenefitModal";
 
 const Banner = () => (
   <section className={css.banner}>
@@ -20,6 +22,9 @@ const Banner = () => (
       <Menu />
       <AdvertForm />
     </div>
+    <ModalWindow>
+      <BenefitModal />
+    </ModalWindow>
   </section>
 );
 
