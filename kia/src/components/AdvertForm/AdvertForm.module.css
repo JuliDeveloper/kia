@@ -26,15 +26,14 @@
 }
 
 .input {
-  width: 297px;
   border: 1px solid var(--theCart);
-  font-family: KIAM, sans-serif;
-  font-size: 16px;
-  line-height: 30px;
   color: var(--theCart);
-  padding: 19px 0 15px 19px;
   margin: 0 37px 0 0;
-  box-sizing: border-box;
+  padding: 9px 0 9px 20px;
+}
+
+.input::placeholder {
+  color: var(--theCart);
 }
 
 .button {
@@ -44,6 +43,7 @@
   color: var(--white);
   text-transform: uppercase;
   background: var(--bordeaux);
-  padding: 19px 73px 15px 69px;
+  width: 297px;
+  padding: 10px 0;
   white-space: nowrap;
 }

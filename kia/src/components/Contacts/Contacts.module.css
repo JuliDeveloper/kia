@@ -1,0 +1,6 @@
+.container {
+  max-width: 1180px;
+  margin: 71px auto 62px;
+  display: flex;
+  align-items: center;
+}
