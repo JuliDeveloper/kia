@@ -1,13 +1,19 @@
 import React from "react";
+import PropTypes from "prop-types";
 import css from "./BenefitModal.module.css";
 import Input from "../Input/Input";
 import Button from "../Button";
 
 import { ReactComponent as SvgIconClose } from "../../images/close.svg";
 
-const BenefitModal = () => (
+const BenefitModal = ({ handleToggleModal }) => (
   <div className={css.wrapper}>
-    <SvgIconClose className={css.icon} width="16px" height="17px" />
+    <SvgIconClose
+      onClick={handleToggleModal}
+      className={css.icon}
+      width="16px"
+      height="17px"
+    />
     <h2 className={css.title}>Получите все выгоды!</h2>
     <Input inputClassName={css.input} />
     <Button title="Получить все выгоды" buttonClassName={css.button} />
@@ -19,5 +25,9 @@ const BenefitModal = () => (
     </p>
   </div>
 );
+
+BenefitModal.propTypes = {
+  handleToggleModal: PropTypes.func.isRequired
+};
 
 export default BenefitModal;
