@@ -1,10 +1,16 @@
-import React, { Fragment } from 'react';
-import './style.css';
-import './App.css';
-import Header from './components/Header/Header.jsx';
+import React from "react";
+import "./style.css";
+
+import Header from "./components/Header";
+import AdvertBanner from "./components/AdvertBanner";
 
 function App() {
-  return <Header />
+  return (
+    <>
+      <Header />
+      <AdvertBanner />
+    </>
+  );
 }
 
 export default App;

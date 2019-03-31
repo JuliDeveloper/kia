@@ -1,0 +1,18 @@
+.container {
+  max-width: 1180px;
+  margin: 54px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageRio {
+  width: 301px;
+  height: 181px;
+  background: url("./images/car_1.png") no-repeat;
+}
+
+.imageCeed {
+  width: 296px;
+  height: 177px;
+  background: url("./images/car_2.png") no-repeat;
+}
