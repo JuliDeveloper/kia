@@ -1,9 +1,11 @@
 .header {
   max-width: 1180px;
+  min-width: 1000px;
   margin: 30px auto 0;
   padding: 0 10px;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .container {
@@ -26,7 +28,7 @@
 .addressText {
   font-family: KIAM, sans-serif;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 16px;
   color: var(--white);
 }
 
@@ -41,14 +43,58 @@
   background: var(--bordeaux);
   font-family: KIAM, sans-serif;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 60px;
   color: var(--white);
   text-transform: uppercase;
-  padding: 20px 32px 22px 38px;
+  white-space: nowrap;
+  padding: 0 32px 0 38px;
   margin: 0 0 0 76px;
-  transition: background 0.1s ease-in-out;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  transition: background 0.2s ease-in-out;
 }
 
 .button:hover {
   background: rgba(163, 6, 6, 0.9);
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .button {
+    background: var(--white);
+    color: var(--bordeaux);
+    border: 1px solid var(--bordeaux);
+  }
+
+  .button:hover {
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    background: var(--bordeaux);
+    max-width: 375px;
+    min-width: 320px;
+  }
+
+  .autoHolding {
+    display: none;
+  }
+
+  .address {
+    max-width: 140px;
+  }
+
+  .addressText {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .button {
+    display: none;
+  }
 }
