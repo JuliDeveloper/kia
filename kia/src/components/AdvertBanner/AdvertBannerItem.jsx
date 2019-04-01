@@ -27,13 +27,14 @@ const AdvertBannerItem = ({ title, image, subtext, status, buttons, text }) => (
       <span className={css.text}>{subtext}</span>
       {buttons.map(button => (
         <Button
-          title={button.title}
           buttonClassName={classNames(css.button, {
             [css.credit]: button.type === "credit",
             [css.benefit]: button.type === "benefit",
             [css.special]: button.type === "special"
           })}
-        />
+        >
+          {button.title}
+        </Button>
       ))}
     </div>
   </section>

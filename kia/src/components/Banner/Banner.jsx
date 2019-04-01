@@ -11,9 +11,8 @@ const Banner = () => (
         <span className={css.title}>Только до конца октября</span>
         <span className={css.titleIncrease}>масштабные выгоды</span>
         <span className={css.title}>на весь модельный ряд!</span>
-        <Button title="забрать выгоду!" buttonClassName={css.button} />
+        <Button buttonClassName={css.button}>забрать выгоду!</Button>
       </div>
-
       <div className={css.image} />
     </div>
     <div className={css.box}>
