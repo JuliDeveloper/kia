@@ -3,6 +3,7 @@ import carCeed from "../../images/car_2.png";
 
 export default [
   {
+    id: "kiaRio",
     title: "KIA Rio X-Line",
     image: carRio,
     text: "Зимняя резина в подарок",
@@ -23,6 +24,7 @@ export default [
     ]
   },
   {
+    id: "kiaCeed",
     title: "KIA Ceed",
     image: carCeed,
     text: "Летняя резина в подарок",

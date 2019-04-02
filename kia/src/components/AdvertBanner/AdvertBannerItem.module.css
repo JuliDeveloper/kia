@@ -115,3 +115,61 @@
   opacity: 0.9;
   transform: scale(1.1);
 }
+
+@media (max-width: 640px) {
+  .advert {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advert + .advert {
+    margin: 20px 0 0;
+  }
+
+  .advert::before {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container + .container {
+    margin: 0;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .stock {
+    display: none;
+  }
+
+  .credit {
+    order: 5;
+  }
+
+  .credit:hover {
+    transform: scale(1);
+  }
+
+  .benefit {
+    order: 4;
+  }
+
+  .benefit:hover {
+    background: var(--white);
+    color: var(--bordeaux);
+    transform: scale(1);
+  }
+
+  .special {
+    display: none;
+  }
+}
