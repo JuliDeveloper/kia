@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d97fc42a-ad70-4678-b3bc-1ac890d02a60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BenefitModal/BenefitModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BenefitModal/BenefitModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalWindow/ModalWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalWindow/ModalWindow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,14 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/ModalWindow/ModalWindow.jsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -35,17 +29,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="92">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.jsx">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="31" />
+            <state relative-caret-position="91">
+              <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -78,9 +75,7 @@
         <option value="$PROJECT_DIR$/src/components/AdvertBanner/config.js" />
         <option value="$PROJECT_DIR$/src/App.module.css" />
         <option value="$PROJECT_DIR$/src/components/AdvertBanner/index.js" />
-        <option value="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css" />
         <option value="$PROJECT_DIR$/src/components/AdvertBanner/configData.js" />
-        <option value="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css" />
         <option value="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.jsx" />
         <option value="$PROJECT_DIR$/src/components/Contacts/Map/index.js" />
         <option value="$PROJECT_DIR$/src/components/Contacts/ContactForm/index.js" />
@@ -107,6 +102,8 @@
         <option value="$PROJECT_DIR$/src/components/BenefitModal/BenefitModal.jsx" />
         <option value="$PROJECT_DIR$/src/components/Banner/Banner.jsx" />
         <option value="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.jsx" />
+        <option value="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css" />
+        <option value="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css" />
       </list>
     </option>
   </component>
@@ -118,59 +115,27 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="kia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kia" type="462c0819:PsiDirectoryNode" />
+              <item name="kia" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/work/kia/kia" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="kia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kia" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AdvertBanner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ModalWindow" type="462c0819:PsiDirectoryNode" />
+              <item name="kia" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/work/kia/kia" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,29 +172,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.mapInitConfig.js">
-    <configuration name="mapInitConfig.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="mapInitConfig.js" working-dir="$PROJECT_DIR$/src/components/Contacts/Map">
-      <method v="2" />
-    </configuration>
-    <configuration name="precommit" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="precommit" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.mapInitConfig.js" />
@@ -256,10 +198,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46069000" />
+    <option name="totallyTimeSpent" value="49030000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8881579" visible="true" weight="0.24947146" />
@@ -276,7 +218,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.438646" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.31638417" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.31593794" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,7 +248,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/eslint-loader/package.json" />
     <entry file="file://$PROJECT_DIR$/.stylelintrc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -420,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/configData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -434,13 +368,6 @@
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -564,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Input/Input.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -585,16 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ModalWindow/ModalWindow.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -686,6 +589,51 @@
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Banner/Banner.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
         </state>
       </provider>
     </entry>
