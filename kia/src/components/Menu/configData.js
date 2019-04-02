@@ -9,11 +9,11 @@ export default [
   },
   {
     text: "Rio X-Line",
-    href: "/"
+    href: "#kiaRio"
   },
   {
     text: "Ceed",
-    href: "/",
+    href: "#kiaCeed",
     subtext: "sw"
   },
   {
