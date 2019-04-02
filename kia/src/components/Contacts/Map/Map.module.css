@@ -2,3 +2,9 @@
   width: 944px;
   height: 372px;
 }
+
+@media (max-width: 640px) {
+  .container {
+    display: none;
+  }
+}
