@@ -4,3 +4,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 640px;
+    flex-direction: column;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+}

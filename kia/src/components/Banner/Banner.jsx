@@ -31,9 +31,10 @@ class Banner extends PureComponent {
             <span className={css.title}>на весь модельный ряд!</span>
             <Button
               handleClick={this.toggleModalWindow}
-              title="забрать выгоду!"
               buttonClassName={css.button}
-            />
+            >
+              забрать выгоду!
+            </Button>
           </div>
 
           <div className={css.image} />

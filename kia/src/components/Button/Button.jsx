@@ -4,18 +4,18 @@ import classNames from "classnames";
 
 import css from "./Button.module.css";
 
-const Button = ({ title, buttonClassName, handleClick }) => (
+const Button = ({ children, buttonClassName, handleClick }) => (
   <button
     onClick={handleClick}
     type="button"
     className={classNames(css.button, buttonClassName)}
   >
-    {title}
+    {children}
   </button>
 );
 
 Button.propTypes = {
-  title: PropTypes.string.isRequired,
+  children: PropTypes.objectOf(PropTypes.any).isRequired,
   buttonClassName: PropTypes.string,
   handleClick: PropTypes.func
 };

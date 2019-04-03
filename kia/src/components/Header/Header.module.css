@@ -1,9 +1,11 @@
 .header {
   max-width: 1180px;
-  margin: 30px auto 0;
-  padding: 0 10px;
+  min-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 10px 0;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .container {
@@ -26,7 +28,7 @@
 .addressText {
   font-family: KIAM, sans-serif;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 16px;
   color: var(--white);
 }
 
@@ -41,14 +43,101 @@
   background: var(--bordeaux);
   font-family: KIAM, sans-serif;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 60px;
   color: var(--white);
   text-transform: uppercase;
-  padding: 20px 32px 22px 38px;
+  white-space: nowrap;
+  padding: 0 32px 0 38px;
   margin: 0 0 0 76px;
-  transition: background 0.1s ease-in-out;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  transition: background 0.2s ease-in-out;
 }
 
 .button:hover {
   background: rgba(163, 6, 6, 0.9);
+}
+
+.menuMobile {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .button {
+    background: var(--white);
+    color: var(--bordeaux);
+    border: 1px solid var(--bordeaux);
+  }
+
+  .button:hover {
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    min-width: 320px;
+    background: var(--white);
+    justify-content: space-between;
+  }
+
+  .autoHolding {
+    display: none;
+  }
+
+  .address {
+    max-width: 35px;
+  }
+
+  .addressText {
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--bordeaux);
+  }
+
+  .addressIcon {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .menuMobile {
+    display: block;
+  }
+
+  .menuButton {
+    padding: 0;
+    position: relative;
+  }
+
+  .iconMenu {
+    width: 30px;
+    height: 30px;
+  }
+
+  .substrate {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    overflow: scroll;
+  }
+
+  .menu {
+    min-width: 320px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .inputClose {
+    position: absolute;
+    top: 26px;
+    right: 20px;
+  }
 }
