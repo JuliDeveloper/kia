@@ -24,10 +24,10 @@ class AdvertBannerItem extends PureComponent {
   };
 
   render() {
-    const { title, image, subtext, status, buttons, text } = this.props;
+    const { title, image, subtext, status, buttons, text, id } = this.props;
     const { isModalWindowOpen } = this.state;
     return (
-      <section className={css.advert}>
+      <section id={id} className={css.advert}>
         <div className={css.container}>
           <h2 className={css.title}>
             {title}
@@ -72,6 +72,7 @@ AdvertBannerItem.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   subtext: PropTypes.string.isRequired,
+  id: PropTypes.string,
   buttons: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,
@@ -83,7 +84,8 @@ AdvertBannerItem.propTypes = {
 };
 
 AdvertBannerItem.defaultProps = {
-  status: ""
+  status: "",
+  id: ""
 };
 
 export default AdvertBannerItem;
