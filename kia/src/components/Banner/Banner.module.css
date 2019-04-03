@@ -61,3 +61,9 @@
   justify-content: space-between;
   margin: 99px 0 0;
 }
+
+@media (max-width: 640px) {
+  .banner {
+    display: none;
+  }
+}
