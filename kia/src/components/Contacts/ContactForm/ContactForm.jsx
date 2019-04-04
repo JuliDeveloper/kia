@@ -11,7 +11,9 @@ const ContactForm = () => (
       +7 (861) 212-34-92
     </a>
     <Input inputClassName={css.input} />
-    <Button buttonClassName={css.button}>заказать звонок</Button>
+    <Button buttonClassName={css.button}>
+      <span>заказать звонок</span>
+    </Button>
   </div>
 );
 

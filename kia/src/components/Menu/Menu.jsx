@@ -15,7 +15,7 @@ const Menu = ({ children, menuClassName }) => (
     </h2>
     <div className={css.list}>
       {menuConfigData.map(menuItem => (
-        <MenuItem {...menuItem} />
+        <MenuItem key={menuItem.id} {...menuItem} />
       ))}
     </div>
   </nav>
@@ -28,7 +28,7 @@ Menu.propTypes = {
 
 Menu.defaultProps = {
   menuClassName: "",
-  children: ""
+  children: null
 };
 
 export default Menu;

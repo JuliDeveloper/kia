@@ -1,5 +1,5 @@
 .advert {
-  margin: 52px 0 0;
+  margin: 69px 0 0;
 }
 
 .title {
@@ -26,6 +26,7 @@
 }
 
 .input {
+  width: 297px;
   border: 1px solid var(--theCart);
   color: var(--theCart);
   margin: 0 37px 0 0;

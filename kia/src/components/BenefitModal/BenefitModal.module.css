@@ -4,6 +4,9 @@
   position: relative;
   background: var(--white);
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon {
@@ -17,17 +20,17 @@
   font-family: KIAB, sans-serif;
   font-size: 24px;
   line-height: 48px;
-  text-align: center;
+  white-space: nowrap;
 }
 
 .input {
+  width: 297px;
   margin: 15px 0 0;
   font-size: 14px;
   line-height: 36px;
   color: var(--lightGrey);
   border: 1px solid var(--almostGrey);
-  text-align: center;
-  padding: 7px 0;
+  padding: 7px 0 7px 15px;
 }
 
 .input::placeholder {
@@ -58,4 +61,24 @@
   color: var(--lightGrey);
   text-align: center;
   margin: 10px 0 0;
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    max-width: 300px;
+    padding: 30px 10px 20px;
+  }
+
+  .title {
+    white-space: nowrap;
+  }
+
+  .input {
+    width: 230px;
+    padding-left: 15px;
+  }
+
+  .button {
+    width: 230px;
+  }
 }
