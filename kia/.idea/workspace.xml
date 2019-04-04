@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaf60d52-25f3-4eac-a11f-720e1ff1875d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertBanner/AdvertBannerItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdvertForm/AdvertForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertForm/AdvertForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdvertForm/AdvertForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdvertForm/AdvertForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BenefitModal/BenefitModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BenefitModal/BenefitModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BenefitModal/BenefitModal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BenefitModal/BenefitModal.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactForm/ContactForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactForm/ContactForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/ContactForm/ContactForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/ContactForm/ContactForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/Input.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/configData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/configData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="aaf60d52-25f3-4eac-a11f-720e1ff1875d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -35,29 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Contacts/ContactForm/ContactForm.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Contacts/ContactForm/ContactForm.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -130,22 +85,7 @@
               <item name="~/work/kia/kia" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Banner" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="kia" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/work/kia/kia" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Contacts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="kia" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/work/kia/kia" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Contacts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ContactForm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AdvertBanner" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -191,13 +131,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11694000" />
+    <option name="totallyTimeSpent" value="11756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8881579" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8881579" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.1118421" side_tool="true" weight="0.19771352" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -211,7 +150,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.438646" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.31460676" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.31460676" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,8 +222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AdvertBanner/AdvertBanner.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
