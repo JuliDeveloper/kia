@@ -33,7 +33,7 @@ class Banner extends PureComponent {
               handleClick={this.toggleModalWindow}
               buttonClassName={css.button}
             >
-              забрать выгоду!
+              <span>забрать выгоду!</span>
             </Button>
           </div>
 

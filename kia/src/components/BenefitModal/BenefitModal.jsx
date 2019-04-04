@@ -16,7 +16,9 @@ const BenefitModal = ({ handleToggleModal }) => (
     />
     <h2 className={css.title}>Получите все выгоды!</h2>
     <Input inputClassName={css.input} />
-    <Button title="Получить все выгоды" buttonClassName={css.button} />
+    <Button buttonClassName={css.button}>
+      <span>Получить все выгоды</span>
+    </Button>
     <p className={css.text}>
       Нажав на кнопку &quot;Отправить заявку&quot;, я даю согласие на обработку
       моих персональных данных и получение рекламных предложений. С условиями

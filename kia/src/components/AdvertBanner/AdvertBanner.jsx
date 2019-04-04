@@ -9,7 +9,7 @@ import AdvertBannerItem from "./AdvertBannerItem";
 const AdvertBanner = () => (
   <div className={css.container}>
     {advertBannerData.map(banner => (
-      <AdvertBannerItem {...banner} />
+      <AdvertBannerItem key={banner.id} {...banner} />
     ))}
   </div>
 );

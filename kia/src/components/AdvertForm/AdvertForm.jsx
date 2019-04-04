@@ -14,7 +14,9 @@ const AdvertForm = () => (
     </h3>
     <div className={css.container}>
       <Input inputClassName={css.input} />
-      <Button buttonClassName={css.button}>получить кредит</Button>
+      <Button buttonClassName={css.button}>
+        <span>получить кредит</span>
+      </Button>
     </div>
   </form>
 );

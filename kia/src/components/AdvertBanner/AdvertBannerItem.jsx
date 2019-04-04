@@ -46,16 +46,18 @@ class AdvertBannerItem extends PureComponent {
           <span className={css.text}>{subtext}</span>
           {buttons.map(button => (
             <Button
+              key={button.type}
               handleClick={
                 button.type === "benefit" ? this.toggleModalWindow : null
               }
-              title={button.title}
               buttonClassName={classNames(css.button, {
                 [css.credit]: button.type === "credit",
                 [css.benefit]: button.type === "benefit",
                 [css.special]: button.type === "special"
               })}
-            />
+            >
+              <span>{button.title}</span>
+            </Button>
           ))}
         </div>
         {isModalWindowOpen && (
